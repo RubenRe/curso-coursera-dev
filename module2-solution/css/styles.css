@@ -1,19 +1,147 @@
-* {
-	background-color: red;
+*
+{
+	margin: auto;
+	padding: 0px;
 	box-sizing: border-box;
-	
+	word-break: break-all;
+ 	word-wrap: break-word;
+ 	color: white;
+ 	font-family: "Abel";
 }
+
+body
+{
+	background-image: url("../img/our_menu_background_food_restaurant.jpg");
+}
+
+	.container 
+	{
+		width: 90%;
+		
+	}
+
+		h1 
+		{
+			text-align: center;
+			margin-top: 2rem;
+			font-size: 2.5rem;
+			font-family: "Lobster";
+			color: white;
+			background-color: rgba(0,96,100,.9);
+		}
+
+		.main
+		{
+			width: 100%;
+			margin: auto;
+			margin-top: 3rem;
+			box-sizing: border-box;
+		}
+
+			.mainChild
+			{
+				width: 24.99%;
+				float: left;
+				border: 1px solid black;
+			}
+
+				.mainChild > p
+				{
+					padding: 5px 20px;
+					clear: both;
+					font-size: 1.2rem;
+				}
+
+				.mainChild > div 
+				{
+					background-color: rgb(0,96,100);
+					padding: 0 1rem;
+					text-align: center;
+					float: right;
+					border-bottom: 1px solid black;
+					border-left: 1px solid black;
+					font-size: 2rem;
+				}
+
+			.chicken
+			{
+				background-color: rgba(237,64,60,.3);
+				margin-right: 8.33%;
+				margin-left: 4.15%;
+			}
+
+				.chicken:hover
+				{
+					background-color: rgba(237,64,60,.7);
+				}
+
+			.beef
+			{
+				background-color: rgba(2,172,172,.3);
+				margin-right: 8.33%;
+			}
+				.beef:hover
+				{
+					background-color: rgba(2,172,172,.7);
+				}
+
+			.sushi
+			{
+				background-color: rgba(33,64,154,.3);
+			}
+
+				.sushi:hover
+				{
+					background-color: rgba(33,64,154,.7);
+				}
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-	* {
-		background-color: blue;
+	*
+	{
+		background-size: 100%;
+	}
+
+	body
+	{
+		background-color: red;
+	}
+
+	.chicken
+	{
+		width: 42%;
+		margin: 0;
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+
+	.beef
+	{
+		width: 42%;
+		margin: 0;
+		margin-left: 4%;
+		
+	}
+
+	.sushi
+	{
+		width: 92%;
+		margin-top: 3rem;
+		margin-left: 4%;
 	}
 }
 
 @media (max-width: 767px)
 {
-	* {
-		background-color: green;
+	.mainChild
+	{
+		margin: 0;
+		margin-left: 4%;
+		width: 92%;
+		margin-bottom: 3rem;
 	}
 }
+
+
+
+
