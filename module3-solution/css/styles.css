@@ -1,0 +1,274 @@
+a
+{
+	text-decoration: none;
+}
+
+
+
+#header-nav
+{
+	background-color: white;
+	border-bottom: .01px solid #ffc700;
+	border-top: 0;
+	height: 120px;
+}
+
+#header-nav > .container
+{
+	width: 90%;
+}
+
+header .navbar-brand
+{
+	margin-top: 15px;
+	border: 1px solid #ffc700; /* #ba007c */ 
+	padding: 0;
+	height: 8rem;
+}
+
+header .navbar-brand h1 
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 4px;
+	color: #ffc700;
+	font-size: 4rem;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+#collapsable-nav 
+{
+	
+	border: 0;
+}
+
+#butt, #butt span {
+    border: 1px solid #ffc700;
+}
+
+	#butt:hover
+	{
+		background-color: transparent;
+		opacity: .4;
+	}
+
+/* ENDS HEADER */
+
+#call
+{
+	margin-top: 60px;
+	padding: 15px;
+	border-top: 2px solid #ffc700;
+	border-bottom: 2px solid #ffc700;
+	background-color: #ffc700;
+}
+
+	#call a {
+		color: gray;
+		font-size: 2rem;
+	}
+	#call a:hover{
+		text-decoration: none;
+		color: white;
+	}
+
+/* STARTS SECTION */
+
+.description
+{
+	height: 300px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.description > div
+{
+	background-color: rgba(255,255,255,.6);
+	font-size: 2.5rem;
+	padding: 10px;
+	text-align: center;
+	width: 110px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.description p
+{
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+
+/* ENDS SECTION */
+
+
+
+/************************************** MEDIA QUERIES *****************************************************/ 
+
+/********* SUPER EXTRA SMALL DEVICES ********/
+@media (max-width: 479px)
+{
+	/* HEADER */
+
+	#collapsable-nav
+	{
+		background-color: orange;
+	}
+	#collapsable-nav a 
+	{
+		border-bottom: 2px solid #ffc700;
+	}
+
+	#collapsable-nav a:hover 
+	{
+		background-color: #ffd53f;
+	}
+
+	/* MAIN CONTENT */
+
+	#chicken
+	{
+		margin-top: 100px;
+		background: url("../images/chicken-background-479.jpg");
+		background-position: center;
+	}
+
+	#beef
+	{
+		background: url("../images/beef-background-479.jpg") no-repeat;
+		background-position: center;
+	}
+
+	#sushi
+	{
+		background: url("../images/sushi-background-479.jpg") no-repeat;
+		background-position: center;
+	}
+
+	#beef > div {
+		margin-top: 39px;
+	}
+}
+
+/********* EXTRA SMALL DEVICES ********/
+@media (min-width: 480px) and (max-width: 767px)
+{
+	/* HEADER */
+
+	#collapsable-nav
+	{
+		background-color: orange;
+	}
+	#collapsable-nav a 
+	{
+		border-bottom: 2px solid #ffc700;
+	}
+
+	#collapsable-nav a:hover 
+	{
+		background-color: #ffd53f;
+	}
+
+	/* MAIN CONTENT */
+	#chicken
+	{
+	background: url("../images/chicken-background-767.jpg") no-repeat;
+	background-position: center;
+	margin-top: 100px;
+	}
+
+	#beef 
+	{
+	background: url("../images/beef-background-767.jpg") no-repeat;
+	background-position: center;
+	}
+
+	#sushi
+	{
+		background: url("../images/sushi-background-767.jpg") no-repeat;
+		background-position: center;
+	}
+
+}
+
+/********* SMALL DEVICES ********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#chicken
+	{
+	background: url("../images/chicken-background-767.jpg");
+	}
+
+	#beef
+	{
+	background: url("../images/beef-background-767.jpg");
+	background-position: center;
+	}
+
+	#sushi
+	{
+		background: url("../images/sushi-background-767.jpg") no-repeat;
+		background-position: center;
+	}
+
+	.description p
+	{
+	font-size: 2rem;
+	}
+
+}
+
+/********* MEDIUM DEVICES ********/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#chicken
+	{
+	background: url("../images/chicken-background-992.jpg");
+	}
+
+	#beef
+	{
+	background: url("../images/beef-background-992.jpg");
+	background-position: center;
+	}
+
+	#sushi
+	{
+		background: url("../images/sushi-background-992.jpg") no-repeat;
+		background-position: center;
+	}
+	.description p
+	{
+	font-size: 2rem;
+	}
+}
+
+/********* LARGE DEVICES ********/
+@media (min-width: 1200px)
+{
+	#chicken
+	{
+	background: url("../images/chicken-background-1200.jpg");
+	background-position: center;
+	}
+
+	#beef
+	{
+	background: url("../images/beef-background-1200.jpg");
+	background-position: center;
+	}
+
+	#sushi
+	{
+		background: url("../images/sushi-background-1200.jpg") no-repeat;
+		background-position: center;
+	}
+	.description p
+	{
+	font-size: 2rem;
+	}
+
+
+}
