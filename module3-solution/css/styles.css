@@ -54,6 +54,13 @@ header .navbar-brand h1
 
 /* ENDS HEADER */
 
+section h1
+{
+	font-family: "Josefin Sans";
+	color: #ffd53f;
+}
+
+
 #call
 {
 	margin-top: 60px;
@@ -243,6 +250,11 @@ header .navbar-brand h1
 	{
 	font-size: 2rem;
 	}
+
+	section h1 
+	{
+		margin-bottom: 30px;
+	}
 }
 
 /********* LARGE DEVICES ********/
@@ -269,6 +281,12 @@ header .navbar-brand h1
 	{
 	font-size: 2rem;
 	}
+
+	section h1
+	{
+		margin-bottom: 30px;
+	}
+
 
 
 }
